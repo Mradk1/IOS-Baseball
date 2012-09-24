@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F64276191610F57900A11CDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64276181610F57900A11CDD /* UIKit.framework */; };
+		F642761B1610F57900A11CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F642761A1610F57900A11CDD /* Foundation.framework */; };
+		F642761D1610F57900A11CDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F642761C1610F57900A11CDD /* CoreGraphics.framework */; };
+		F642761F1610F57900A11CDD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F642761E1610F57900A11CDD /* CoreData.framework */; };
+		F64276251610F57900A11CDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F64276231610F57900A11CDD /* InfoPlist.strings */; };
+		F64276271610F57900A11CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F64276261610F57900A11CDD /* main.m */; };
+		F642762B1610F57900A11CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F642762A1610F57900A11CDD /* AppDelegate.m */; };
+		F642762D1610F57900A11CDD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F642762C1610F57900A11CDD /* Default.png */; };
+		F642762F1610F57900A11CDD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F642762E1610F57900A11CDD /* Default@2x.png */; };
+		F64276311610F57900A11CDD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F64276301610F57900A11CDD /* Default-568h@2x.png */; };
+		F64276341610F57900A11CDD /* Baseball_app2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F64276321610F57900A11CDD /* Baseball_app2.xcdatamodeld */; };
+		F642763C1610F57900A11CDD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F642763B1610F57900A11CDD /* SenTestingKit.framework */; };
+		F642763D1610F57900A11CDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64276181610F57900A11CDD /* UIKit.framework */; };
+		F642763E1610F57900A11CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F642761A1610F57900A11CDD /* Foundation.framework */; };
+		F642763F1610F57900A11CDD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F642761E1610F57900A11CDD /* CoreData.framework */; };
+		F64276471610F57900A11CDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F64276451610F57900A11CDD /* InfoPlist.strings */; };
+		F642764A1610F57900A11CDD /* Baseball_app2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64276491610F57900A11CDD /* Baseball_app2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F64276401610F57900A11CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F642760B1610F57900A11CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F64276131610F57900A11CDD;
+			remoteInfo = "Baseball-app2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F64276141610F57900A11CDD /* Baseball-app2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baseball-app2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64276181610F57900A11CDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F642761A1610F57900A11CDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F642761C1610F57900A11CDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F642761E1610F57900A11CDD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F64276221610F57900A11CDD /* Baseball-app2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Baseball-app2-Info.plist"; sourceTree = "<group>"; };
+		F64276241610F57900A11CDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F64276261610F57900A11CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F64276281610F57900A11CDD /* Baseball-app2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Baseball-app2-Prefix.pch"; sourceTree = "<group>"; };
+		F64276291610F57900A11CDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F642762A1610F57900A11CDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F642762C1610F57900A11CDD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F642762E1610F57900A11CDD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F64276301610F57900A11CDD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F64276331610F57900A11CDD /* Baseball_app2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Baseball_app2.xcdatamodel; sourceTree = "<group>"; };
+		F642763A1610F57900A11CDD /* Baseball-app2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baseball-app2Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F642763B1610F57900A11CDD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F64276441610F57900A11CDD /* Baseball-app2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Baseball-app2Tests-Info.plist"; sourceTree = "<group>"; };
+		F64276461610F57900A11CDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F64276481610F57900A11CDD /* Baseball_app2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baseball_app2Tests.h; sourceTree = "<group>"; };
+		F64276491610F57900A11CDD /* Baseball_app2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Baseball_app2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F64276111610F57900A11CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64276191610F57900A11CDD /* UIKit.framework in Frameworks */,
+				F642761B1610F57900A11CDD /* Foundation.framework in Frameworks */,
+				F642761D1610F57900A11CDD /* CoreGraphics.framework in Frameworks */,
+				F642761F1610F57900A11CDD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64276361610F57900A11CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F642763C1610F57900A11CDD /* SenTestingKit.framework in Frameworks */,
+				F642763D1610F57900A11CDD /* UIKit.framework in Frameworks */,
+				F642763E1610F57900A11CDD /* Foundation.framework in Frameworks */,
+				F642763F1610F57900A11CDD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F64276091610F57900A11CDD = {
+			isa = PBXGroup;
+			children = (
+				F64276201610F57900A11CDD /* Baseball-app2 */,
+				F64276421610F57900A11CDD /* Baseball-app2Tests */,
+				F64276171610F57900A11CDD /* Frameworks */,
+				F64276151610F57900A11CDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F64276151610F57900A11CDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F64276141610F57900A11CDD /* Baseball-app2.app */,
+				F642763A1610F57900A11CDD /* Baseball-app2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F64276171610F57900A11CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F64276181610F57900A11CDD /* UIKit.framework */,
+				F642761A1610F57900A11CDD /* Foundation.framework */,
+				F642761C1610F57900A11CDD /* CoreGraphics.framework */,
+				F642761E1610F57900A11CDD /* CoreData.framework */,
+				F642763B1610F57900A11CDD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F64276201610F57900A11CDD /* Baseball-app2 */ = {
+			isa = PBXGroup;
+			children = (
+				F64276291610F57900A11CDD /* AppDelegate.h */,
+				F642762A1610F57900A11CDD /* AppDelegate.m */,
+				F64276321610F57900A11CDD /* Baseball_app2.xcdatamodeld */,
+				F64276211610F57900A11CDD /* Supporting Files */,
+			);
+			path = "Baseball-app2";
+			sourceTree = "<group>";
+		};
+		F64276211610F57900A11CDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F64276221610F57900A11CDD /* Baseball-app2-Info.plist */,
+				F64276231610F57900A11CDD /* InfoPlist.strings */,
+				F64276261610F57900A11CDD /* main.m */,
+				F64276281610F57900A11CDD /* Baseball-app2-Prefix.pch */,
+				F642762C1610F57900A11CDD /* Default.png */,
+				F642762E1610F57900A11CDD /* Default@2x.png */,
+				F64276301610F57900A11CDD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F64276421610F57900A11CDD /* Baseball-app2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F64276481610F57900A11CDD /* Baseball_app2Tests.h */,
+				F64276491610F57900A11CDD /* Baseball_app2Tests.m */,
+				F64276431610F57900A11CDD /* Supporting Files */,
+			);
+			path = "Baseball-app2Tests";
+			sourceTree = "<group>";
+		};
+		F64276431610F57900A11CDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F64276441610F57900A11CDD /* Baseball-app2Tests-Info.plist */,
+				F64276451610F57900A11CDD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F64276131610F57900A11CDD /* Baseball-app2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F642764D1610F57900A11CDD /* Build configuration list for PBXNativeTarget "Baseball-app2" */;
+			buildPhases = (
+				F64276101610F57900A11CDD /* Sources */,
+				F64276111610F57900A11CDD /* Frameworks */,
+				F64276121610F57900A11CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baseball-app2";
+			productName = "Baseball-app2";
+			productReference = F64276141610F57900A11CDD /* Baseball-app2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F64276391610F57900A11CDD /* Baseball-app2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64276501610F57900A11CDD /* Build configuration list for PBXNativeTarget "Baseball-app2Tests" */;
+			buildPhases = (
+				F64276351610F57900A11CDD /* Sources */,
+				F64276361610F57900A11CDD /* Frameworks */,
+				F64276371610F57900A11CDD /* Resources */,
+				F64276381610F57900A11CDD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64276411610F57900A11CDD /* PBXTargetDependency */,
+			);
+			name = "Baseball-app2Tests";
+			productName = "Baseball-app2Tests";
+			productReference = F642763A1610F57900A11CDD /* Baseball-app2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F642760B1610F57900A11CDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "matthew radke";
+			};
+			buildConfigurationList = F642760E1610F57900A11CDD /* Build configuration list for PBXProject "Baseball-app2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F64276091610F57900A11CDD;
+			productRefGroup = F64276151610F57900A11CDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F64276131610F57900A11CDD /* Baseball-app2 */,
+				F64276391610F57900A11CDD /* Baseball-app2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F64276121610F57900A11CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64276251610F57900A11CDD /* InfoPlist.strings in Resources */,
+				F642762D1610F57900A11CDD /* Default.png in Resources */,
+				F642762F1610F57900A11CDD /* Default@2x.png in Resources */,
+				F64276311610F57900A11CDD /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64276371610F57900A11CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64276471610F57900A11CDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F64276381610F57900A11CDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F64276101610F57900A11CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64276271610F57900A11CDD /* main.m in Sources */,
+				F642762B1610F57900A11CDD /* AppDelegate.m in Sources */,
+				F64276341610F57900A11CDD /* Baseball_app2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64276351610F57900A11CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F642764A1610F57900A11CDD /* Baseball_app2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F64276411610F57900A11CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F64276131610F57900A11CDD /* Baseball-app2 */;
+			targetProxy = F64276401610F57900A11CDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F64276231610F57900A11CDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64276241610F57900A11CDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F64276451610F57900A11CDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64276461610F57900A11CDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F642764B1610F57900A11CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F642764C1610F57900A11CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F642764E1610F57900A11CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baseball-app2/Baseball-app2-Prefix.pch";
+				INFOPLIST_FILE = "Baseball-app2/Baseball-app2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F642764F1610F57900A11CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baseball-app2/Baseball-app2-Prefix.pch";
+				INFOPLIST_FILE = "Baseball-app2/Baseball-app2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F64276511610F57900A11CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Baseball-app2.app/Baseball-app2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baseball-app2/Baseball-app2-Prefix.pch";
+				INFOPLIST_FILE = "Baseball-app2Tests/Baseball-app2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F64276521610F57900A11CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Baseball-app2.app/Baseball-app2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Baseball-app2/Baseball-app2-Prefix.pch";
+				INFOPLIST_FILE = "Baseball-app2Tests/Baseball-app2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F642760E1610F57900A11CDD /* Build configuration list for PBXProject "Baseball-app2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F642764B1610F57900A11CDD /* Debug */,
+				F642764C1610F57900A11CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F642764D1610F57900A11CDD /* Build configuration list for PBXNativeTarget "Baseball-app2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F642764E1610F57900A11CDD /* Debug */,
+				F642764F1610F57900A11CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F64276501610F57900A11CDD /* Build configuration list for PBXNativeTarget "Baseball-app2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64276511610F57900A11CDD /* Debug */,
+				F64276521610F57900A11CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F64276321610F57900A11CDD /* Baseball_app2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F64276331610F57900A11CDD /* Baseball_app2.xcdatamodel */,
+			);
+			currentVersion = F64276331610F57900A11CDD /* Baseball_app2.xcdatamodel */;
+			path = Baseball_app2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F642760B1610F57900A11CDD /* Project object */;
+}
